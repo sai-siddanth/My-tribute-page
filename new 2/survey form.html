@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Buil a Survey Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="survey form.css">
+</head>
+<body style="background-color: lightgoldenrodyellow; font-size: 1.2em;">
+	<div class="content">
+		<h1>Application for Permission To Date my Daughter</h1>
+		<p><b>Note:</b> Form is to becompleted at atleast 21 days prior to date</p>
+		<div>
+			<form>
+				<fieldset>
+					<legend>Details</legend>
+					Name: <input type="text" name="name" placeholder="Enter name here"><br><br>
+					Address: <input type="text" name="address" placeholder="Enter address here"><br><br>
+					Email: <input type="text" name="email" placeholder="Enter email here"><br><br>
+					Phone Number: <input type="text" name="pnumber" placeholder="Enter 10 digit number"><br><br>
+					IQ: <input type="text" name="iq" placeholder="Enter IQ here"><br><br>
+					Gender<br>
+					<input type="radio" name="gender" value="male">Male<br>
+					<input type="radio" name="gender" value="female">Female<br>
+					<input type="radio" name="gender" value="other">Other<br><br>
+					Date of Proposed Outing: <input type="date" name="dd-mm-yyyy">
+				</fieldset>
+			</form>
+		</div>
+		<fieldset>
+			<label>Check All That Apply</label><br>
+			<input type="checkbox" name="1" value="check"> I have tattoos and/or piercings<br>
+			<input type="checkbox" name="2" value="check">  I am more than 2 years older than my daughter<br>
+			<input type="checkbox" name="3" value="check"> I own a panel van or V8 ute<br>
+			<input type="checkbox" name="4" value="check"> I work full-time<br>
+			<input type="checkbox" name="5" value="check"> My parents are rich<br>
+			<input type="checkbox" name="6" value="check"> Is the date at a well lit public location<br>
+		</fieldset>
+		<fieldset>
+			Political Persuasion: <select name="dropdown">
+				<option value="lw">Left Wing</option>
+				<option value="rw">Right Wing</option>
+				<option value="con">Conservative</option>
+				<option value="nazi">Nazi</option>
+			</select>
+				Education Level Completed: <select name="dropdown">
+				<option value="uni">University</option>
+				<option value="coll">College</option>
+				<option value="hs">High school</option>
+				<option value="none">None</option>
+			</select>
+		</fieldset>
+		<div>
+			<form>
+				<fieldset>
+					<legend>Essay Section</legend>
+					<p>In 50 words or more explain why you want to date my daughter</p><br>
+					<textarea rows="5" cols="50" name="why my daughter" placeholder="Enter Text Here...">
+						</textarea><br>
+					<p>Please upload contack details for 2 references</p><br>
+					<textarea rows="5" cols="50" name="2 references" placeholder="Enter text here...">
+					</textarea>
+					<p>Upload Police Clearance Certificate, Bank Statement and Medical Certificate here:</p>
+
+					<input type="file" name="file">
+				</fieldset>
+			</form><br>
+			<button type="submit">Send Your Application</button>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Anaheim';
+}
+.content{
+	display: block;
+  	margin-right: auto;
+  	margin-left: auto;
+  	margin-top: 33px;
+    max-width: 80%;
+    border: 1px solid lightgrey;
+    border-radius: 1em;
+    padding: 15px;
+    background-color: white;
+
+}
+h1{
+	text-align: center;
+	font-weight: lighter;
+	font-size: 2em;
+	font-variant: small-caps;
+}
+fieldset{
+	margin-bottom: 0.6em;
+	border: 1px solid lightgrey;
+}
+button{
+	display: block;
+	font-size: 1em;
+	background-color: silver;
+	cursor: pointer;
+	border-radius: 0.2em;
+	margin-left: auto;
+	margin-right: auto;
+}
+legend{
+	font-size: 1.2em;
+	font-weight:500;
+}
